@@ -6,7 +6,7 @@ A production-ready Terraform project that provisions a complete AWS EKS (Kuberne
 
 ## Architecture
 
-See `architecture-diagram.html` for the full visual diagram.
+
 
 ```
 Internet
