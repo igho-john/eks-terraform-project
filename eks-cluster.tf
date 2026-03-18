@@ -20,9 +20,12 @@ module "eks" {
 
   cluster_name    = "myapp-eks-cluster"
   cluster_version = "1.31"
-  subnet_ids      = module.myapp-vpc.private_subnets
-  vpc_id          = module.myapp-vpc.vpc_id
 
+  cluster_endpoint_public_access  = true    
+  cluster_endpoint_private_access = true    
+
+  subnet_ids = module.myapp-vpc.private_subnets
+  vpc_id     = module.myapp-vpc.vpc_id
   tags = {
     Environment = "dev"
     application = "myapp"
