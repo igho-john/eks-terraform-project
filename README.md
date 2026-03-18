@@ -6,7 +6,7 @@ A production-ready Terraform project that provisions a complete AWS EKS (Kuberne
 
 ## Architecture
 
-![Alt text](/eks_terraform_architecture.svg)
+![Alt text](/eks_nginx_architecture.svg)
 
 
 
